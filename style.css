@@ -55,49 +55,31 @@ body {
 }
 
 .icon-1 {
-  background-color: #1a1e1f;
   height: 230px;
-  border-radius: 32px;
-  width: 52px;
 }
 
 .icons {
+  background-color: #1a1e1f;
+  border-radius: 32px;
+  width: 52px;
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 33px;
-}
-
-.icons-link {
-  font-size: 18px;
-  margin-top: auto;
-}
-
-li:first-child {
-  margin-top: 26px;
-}
-
-li .active {
-  color: #facd66;
-}
-
-.icons-link {
-  color: rgba(239, 238, 224, 0.25);
 }
 
 .icons-link:link,
 .icons-link:visited {
-  display: inline-block;
+  display: block;
+  margin: 15px auto;
+}
+
+img {
+  filter: opacity(1) drop-shadow(0 0 0 #efeee040);
 }
 
 .icon-2 {
-  background-color: #1a1e1f;
-  justify-content: space-between;
   height: 127px;
-  width: 52px;
-  border-radius: 32px;
-
   margin-top: 20px;
 }
 
