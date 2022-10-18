@@ -18,11 +18,21 @@ body {
   max-width: 1280px;
   max-height: 832px;
   margin: 0 32px;
+  /* display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  column-gap: 24px;
+  overflow-x: hidden; */
+}
+
+.mini-container {
+  background-color: #1d2123;
   display: grid;
   grid-template-columns: auto 1fr 1fr;
-  grid-template-rows: auto 1fr 1fr;
-  column-gap: 40px;
+  grid-template-rows: auto 1fr auto;
+  column-gap: 24px;
   overflow-x: hidden;
+  margin-right: 57px;
 }
 
 /* *********** LEFT SECTION *********** */
@@ -96,10 +106,25 @@ li .active {
   grid-row: 1/2;
   grid-column: 2 / -1;
   display: flex;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   height: 73px;
   justify-content: start;
   align-items: center;
+  width: 1122px;
+  gap: 25.33px;
+}
+
+.search-icon {
+  margin-left: 29px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.search-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.25);
 }
 
 /* .search-icon .search-text {
@@ -217,12 +242,14 @@ span .icon {
 }
 
 .chart-card-texts h5 {
+  margin-bottom: 4px;
   font-weight: 400;
   font-size: 17px;
 }
 
 .chart-card-texts .text-name {
   color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 8px;
 }
 
 .chart-card-texts .text-duration {
@@ -245,11 +272,19 @@ span .icon {
   left: 25%;
 }
 
+.nav-bar,
+.top-charts,
+.main {
+  margin-top: 23px;
+}
+
 /* *********** NEW RELEASES SECTION *********** */
 
 .new-releases {
   grid-column: 2 / 4;
   grid-row: 3 /4;
+  margin-top: 43px;
+  width: 1122px;
 }
 
 .new-releases-imgs {
