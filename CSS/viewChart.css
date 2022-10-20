@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.container {
+  max-width: 1280px;
+  max-height: 832px;
+  background: url(/img/Rectangle\ 20.png);
+  margin: 0 32px;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.mini-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+  column-gap: 24px;
+  overflow-x: hidden;
+  margin-right: 57px;
+}
+
+/* *********** LEFT SECTION *********** */
+
+.logo {
+  margin-top: 23px;
+  margin-left: 27px;
+}
+
+.logo-img {
+  width: 34px;
+  height: 34px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.icon-1 {
+  height: 230px;
+}
+
+.icons {
+  background-color: #1a1e1f;
+  border-radius: 32px;
+  width: 52px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons-link:link,
+.icons-link:visited {
+  display: block;
+  margin: 15px auto;
+}
+
+img {
+  filter: opacity(1) drop-shadow(0 0 0 #efeee040);
+}
+
+.icon-2 {
+  height: 127px;
+  margin-top: 20px;
+}
+
+/* *********** MIDDLE SECTION *********** */
+.search-bar {
+  grid-row: 1/2;
+  grid-column: 2 / -1;
+  display: flex;
+  height: 73px;
+  justify-content: start;
+  align-items: center;
+  width: 1122px;
+  gap: 25.33px;
+}
+
+.search-icon {
+  margin-left: 29px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.search-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.main {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.hero-bar {
+  border-radius: 40px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  gap: 27px;
+}
+
+.lead-image {
+  width: 284px;
+  height: 288.97px;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero-right-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.hero-right-text {
+  margin-top: 9px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.song-duration {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.hero-right-icons {
+  display: flex;
+  gap: 9px;
+  margin-top: 40px;
+}
+
+.hero-right-icon {
+  height: 13.333333015441895px;
+  width: 13.333333015441895px;
+}
+.hero-right-div {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(5px);
+  border-radius: 32px;
+  height: 36px;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 11.33px;
+}
+
+.hero-right-div .circle {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  width: 36px;
+}
+
+.hero-right-heart-icon {
+  margin: 10px;
+}

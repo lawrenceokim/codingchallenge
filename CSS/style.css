@@ -142,10 +142,9 @@ img {
 }
 
 .text {
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 100;
+  font-style: normal;
   margin-top: 6px;
-  letter-spacing: 0.5;
 }
 
 .frames {
@@ -405,5 +404,12 @@ span .icon {
   width: 160px;
   height: 3px;
   background: rgba(255, 255, 255, 0.1);
+  border-radius: 42px;
+}
+
+.volume-seek {
+  width: 51px;
+  height: 3px;
+  background: #facd66;
   border-radius: 42px;
 }
