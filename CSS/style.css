@@ -46,6 +46,8 @@ body {
 }
 
 .nav-bar {
+  grid-column: 1/ 2;
+  grid-row: 2 / -2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -331,7 +333,7 @@ span .icon {
 
 .music-controls {
   position: absolute;
-  bottom: -25px;
+  bottom: -24px;
   z-index: 1;
   width: 1280px;
   height: 125px;
