@@ -25,8 +25,8 @@ body {
 
 .mini-container {
   display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
   column-gap: 24px;
   overflow-x: hidden;
   margin-right: 57px;
@@ -45,6 +45,8 @@ body {
 }
 
 .nav-bar {
+  grid-column: 1/ 2;
+  grid-row: 2 / -3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -184,4 +186,69 @@ img {
 
 .hero-right-heart-icon {
   margin: 10px;
+}
+
+.nav-bar,
+.main {
+  margin-top: 23px;
+}
+
+/* *********** SONG LIST SECTION *********** */
+.song-list-section {
+  margin-top: 49px;
+}
+
+.song-div {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  width: 1125px;
+  margin-bottom: 10px;
+  height: 56px;
+  background: rgba(51, 55, 59, 0.37);
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+}
+
+.song-list-img {
+  margin-left: 10px;
+}
+
+.song-list-icon {
+  margin-left: 20px;
+}
+
+.song-div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+}
+
+.list-text-1 {
+  margin-left: 79px;
+}
+
+.list-text-2 {
+  margin-left: 242px;
+}
+
+.list-text-3 {
+  margin-left: 296px;
+}
+
+.dots {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-left: 200px;
+}
+
+.dot {
+  border: 2px solid #facd66;
+  height: 1.3763049840927124px;
+  width: 1.3763049840927124px;
+  border-radius: 50%;
 }
