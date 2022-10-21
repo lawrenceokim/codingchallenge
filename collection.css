@@ -155,6 +155,7 @@ img {
 .lead-image {
   width: 213px;
   height: 234px;
+  border-radius: 20px;
 }
 
 .img-text {
