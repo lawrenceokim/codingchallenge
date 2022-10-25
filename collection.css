@@ -16,11 +16,11 @@ body {
 }
 
 .container {
-  max-width: 128rem;
+  width: 128rem;
   max-height: 83.2rem;
   margin: 0 3.2rem;
   background: #1d2123;
-  overflow-y: hidden;
+  overflow: hidden;
   position: relative;
 }
 
